@@ -9,3 +9,7 @@ multiline_str = """hello
 world
 test
 """
+
+age = int(input("What's your age? "))
+# age = int(age)
+print(age, type(age))
