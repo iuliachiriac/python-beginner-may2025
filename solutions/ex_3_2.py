@@ -49,3 +49,5 @@ while True:
     if password == CORRECT_PASSWORD:
         print("Correct password entered.")
         break
+    else:
+        print("Incorrect password. Try again.")
