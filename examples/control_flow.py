@@ -13,3 +13,16 @@ print("Outside if")
 if is_cat is True:
     print(f"{name} is a cat")
     print("is_cat is a boolean")
+
+
+while True:
+    sentence = input("Enter a sentence: ")
+
+    if not sentence:
+        break
+
+    if len(sentence) < 5:
+        print("Not a sentence")
+        continue
+
+    print("Sentence is:", sentence)
