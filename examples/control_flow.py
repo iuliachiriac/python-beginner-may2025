@@ -1,5 +1,5 @@
 name = "Felix"
-is_cat = False
+is_cat = True
 
 if is_cat:
     print(f"{name} is a cat")
