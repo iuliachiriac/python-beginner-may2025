@@ -5,3 +5,6 @@ def my_function():
 
 print(my_function)
 help(my_function)
+
+my_function()
+my_function()
